@@ -10,6 +10,9 @@
 		<link rel="shortcut icon" href="/graphics/logo-round.ico" />
 		<script src="/assets/jquery-3.2.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../assets/global.css">
+		<script>
+			Cookies.remove("blackThunderFLLCookiePolicy__Accepted")
+		</script>
 	</head>
 	<body>
 		<div id='nav'>
@@ -45,6 +48,13 @@
 				<br>
 				To control cookies on your device, visit <a href="http://www.youronlinechoices.eu/">http://www.youronlinechoices.eu/</a>.
 			</p>
+			<br>
+			<br>
+			<button class="script-only" onclick="removeCookies()">Decline cookies</button>
+			<noscript>
+				In order to decline cookies, if you have disabled JavaScript, please re-enable it. 
+				If you are unsure what Javascript is, or have not disabled it, you are probably viewing this page on an older computer, in which case please upgrade to a newer device.
+			</noscript>
 			<footer>
 				&copy; Copyright Black Thunder FLL 2018 | <a href="/privacy-policy">Privacy Policy</a>
 			</footer>
