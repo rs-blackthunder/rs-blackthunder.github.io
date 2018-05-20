@@ -68,14 +68,6 @@ footer {
 	margin-bottom: 30px;
 	margin-top: 50px;
 }
-footer span {
-	float: left;
-	clear: left;
-}
-footer a {
-	float: left;
-	clear: right;
-}
 
 @media screen and (max-width: 800px) {
 	body {
