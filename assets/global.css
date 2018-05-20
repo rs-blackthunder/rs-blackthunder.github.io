@@ -90,7 +90,7 @@ footer a {
 	footer a {
 		float: left;
 	}
-	footer a:before {
+	footer span:after {
 		content: "| ";
 	}
 }
