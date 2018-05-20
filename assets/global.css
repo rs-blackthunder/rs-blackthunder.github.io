@@ -90,6 +90,9 @@ footer a {
 	footer a {
 		float: left;
 	}
+	footer a:before {
+		content: "| ";
+	}
 }
 
 @keyframes moveNamePlate {
