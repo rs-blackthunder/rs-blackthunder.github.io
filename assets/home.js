@@ -113,8 +113,6 @@ i=setTimeout(function(){
 	$("#typedText").animate({
 		marginBottom: "15px"
 	}, 500);
-	$('body').removeClass('stop-scrolling');
-	$('body').unbind('touchmove');
 }, 16000);
 
 // TYPEWRITER END //
@@ -152,8 +150,6 @@ function skip() {
 		$("#typedText").animate({
 			marginBottom: "15px"
 		}, 500);
-		$('body').removeClass('stop-scrolling');
-		$('body').unbind('touchmove');
 	}
 };
 
