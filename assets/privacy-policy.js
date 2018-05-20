@@ -1,6 +1,6 @@
 $(document).ready ( function(){
 	if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") == "true") {
-		$(".button").show();
+		$(".button").html("Decline cookies");
 	}
 });
 function changeButtonContent() {
