@@ -9,9 +9,15 @@
 		<meta name='author' content='Black Thunder'/>
 		<link rel="shortcut icon" href="/graphics/logo-round.ico" />
 		<script src="/assets/jquery-3.2.1.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../assets/global.css">
+		<link rel="stylesheet" type="text/css" href="/assets/global.css">
+		<link rel="stylesheet" type="text/css" href="/assets/privacy-policy.css">
 		<script>
-			Cookies.remove("blackThunderFLLCookiePolicy__Accepted")
+			if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") == "true") {
+				$(".button").show()
+			}
+			function removeCookies() {
+				Cookies.remove("blackThunderFLLCookiePolicy__Accepted")
+			}
 		</script>
 	</head>
 	<body>
@@ -50,9 +56,9 @@
 			</p>
 			<br>
 			<br>
-			<button class="script-only" onclick="removeCookies()">Decline cookies</button>
+			<button class="button script-only" onclick="removeCookies()">Decline cookies</button>
 			<noscript>
-				In order to decline cookies, if you have disabled JavaScript, please re-enable it. 
+				If you have already accepted cookies, you are able to chang your mind. However, JavaScript must be enabled - and it isn't. Therefore, if you have disabled JavaScript, please re-enable it. 
 				If you are unsure what Javascript is, or have not disabled it, you are probably viewing this page on an older computer, in which case please upgrade to a newer device.
 			</noscript>
 			<footer>
