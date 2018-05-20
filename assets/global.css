@@ -83,11 +83,11 @@ footer {
 	top: 0;
 	left: 0;
 }
-.button:hover {
+.button-enabled:hover {
 	background: #ffc105;
 	color: black;
 }
-.button:focus {
+.button-enabled:focus {
 	top: 3px;
 	left: 1px;
 }
