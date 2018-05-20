@@ -3,9 +3,6 @@ $(document).ready ( function(){
 		$(".button").show();
 	}
 });
-function hideButton() {
-	$(".button").animate({
-		opacity: 0
-	}, 500);
-	$(".button").hide();
+function changeButtonContent() {
+	$(".button").html("You haven't accepted cookies");
 }
