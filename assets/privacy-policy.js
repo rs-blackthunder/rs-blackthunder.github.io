@@ -5,4 +5,5 @@ $(document).ready ( function(){
 });
 function changeButtonContent() {
 	$(".button").html("You haven't accepted cookies");
+	$(".button").attr("disabled", "disabled");
 }
