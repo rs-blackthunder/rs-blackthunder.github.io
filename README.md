@@ -1,2 +1,2 @@
 # blackthunderfll.github.io
-Website for Reading School's FLL teams
+Website for Reading School's FLL team
