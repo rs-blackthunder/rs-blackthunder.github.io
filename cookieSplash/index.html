@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/assets/roboto-mono.css" rel="stylesheet">
+		<title>Black Thunder | FLL</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Black Thunder: A FLL team from Reading School, UK">
+		<meta name='author' content='Black Thunder'/>
+		<link rel="shortcut icon" href="/graphics/logo-round.ico" />
+		<script src="/assets/cookies.js"></script>
+		<link rel="stylesheet" type="text/css" href="/assets/cookieSplash.css">
+		<link rel="stylesheet" type="text/css" href="/assets/global.css">
+		<!--TMP-->
+		<link rel="stylesheet" type="text/css" href="../assets/cookieSplash.css">
+		<script>
+			// CHECK COOKIE POLICY HAS BEEN ACCEPTED //
+
+			if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") == "true") {
+				window.location = "/"
+			}
+			
+			function acceptCookies() {
+				if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") != "true") {
+					Cookies.set("blackThunderFLLCookiePolicy__Accepted", "true", {expires: 30});
+					window.location = "/"
+				}
+			}
+			
+			// END OF COOKIE POLICY CHECK //
+		</script>
+	</head>
+	<body>
+		<div id='nav'>
+			<nav>
+				<img class='nameplate' src='/graphics/nameplate-thick.png'>
+				<img class='logo1' src='/graphics/logoleft.png'>
+				<img class='logo2' src='/graphics/logo.png'>
+			</nav>
+			<div class='nav-fade'></div>
+		</div>
+		<main>
+			<div class="script-only">
+				<h1>
+					We Use Cookies on Our Site
+				</h1>
+				<p>
+					By continuing to use this site, you agree to the use of cookies from AddThis, Google Analytics, and Black Thunder FLL.
+				</p>
+				<button class="button" onclick="acceptCookies()">Agree</button>
+				<a class="button" href="/privacy-policy">Privacy Policy</a>
+			</div>
+			<noscript>
+				<style>
+					.script-only {
+						display: none;
+					}
+				</style>
+				<h1>Error</h1>
+				<p>
+					We use cookies on this site, and other features that involve JavaScript. If you have disaabled JavaScript, please re-enable it. 
+					If you are unsure what Javascript is, or have not disabled it, you are probably viewing this page on an older computer, in which case please upgrade to a newer device.
+				</p>
+				<a class="button" href="/privacy-policy">Our Privacy Policy</a>
+			</noscript>
+			<footer>
+				&copy; Copyright Black Thunder FLL 2018
+			</footer>
+		</main>
+	</body>
+</html>
