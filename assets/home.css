@@ -1,0 +1,79 @@
+#typedTitle {
+	text-align: center;
+	position: relative;
+	top: 30vh;
+	font-size: 5vh;
+	animation-name: moveTitle;
+	animation-duration: 1.5s;
+	animation-delay: 3.05s;
+	animation-fill-mode: forwards;
+}
+#typedText {
+	text-align: left;
+	position: relative;
+	top: 30vh;
+	animation-name: moveTitle;
+	animation-duration: 1.5s;
+	animation-delay: 3.05s;
+	animation-fill-mode: forwards;
+	margin-bottom: 200px;
+}
+#YTChannel {
+	width: calc(90vw - 130px);
+	height: calc((90vw - 130px) / 16 * 9);
+}
+#twitterContainer {
+	margin-top: 5vh;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#blog {
+	width: 100%;
+	height: calc(89vh - 6vw - 20px);
+	margin-top: 5vh;
+}
+#skip {
+	border: none;
+	position: fixed;
+	bottom: 55px;
+	right: 10px;
+	background-color: #ffc105;
+	border-radius: 5px;
+	z-index: 5;
+	color: white;
+	font-size: 25px;
+	height: 50px;
+	width: 80px;
+	cursor: pointer;
+	display: none;
+}
+#skip span {
+	padding-top: 50px;
+}
+.YTContainer {
+	position: relative;
+	top: 10vh;
+	opacity: 0;
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	#skip {
+		bottom: 105px;
+	}
+	#YTChannel {
+		width: 90vw;
+		height: calc(90vw / 16 * 9);
+	}
+	#twitterContainer {
+		margin-top: 5vh;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
+@keyframes moveTitle {
+	to {
+		top: 0px;
+	}
+}

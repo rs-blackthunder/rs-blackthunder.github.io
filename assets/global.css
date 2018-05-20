@@ -1,0 +1,80 @@
+body {
+	margin: 0px;
+	font-family: 'Roboto Mono';
+	color: #fff;
+	background-color: #212121;
+	text-align: center;
+}
+nav {
+	background-color: #000;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+main {
+	position: relative;
+	margin-top: calc(9vh + 6vw + 20px);
+	margin-left: 65px;
+	margin-right: 65px;
+}
+#nav {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	top: 0px;
+	z-index: 100;
+}
+.nav-fade {
+	height: 4vh;
+	background: linear-gradient(#000, rgba(0,0,0,0));
+}
+.nameplate {
+	width: 60vw;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30vh;
+	margin-bottom: 10px;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	padding: none;
+	animation-name: moveNamePlate;
+	animation-duration: 1.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+.logo1 {
+	position: absolute;
+	left: 0px;
+	height: calc((60vw / 10) + 20px);
+	width: auto;
+}
+.logo2 {
+	position: absolute;
+	right: 0px;
+	height: calc((60vw / 10) + 20px);
+	width: auto;
+}
+footer {
+	text-align: left;
+	margin-bottom: 1.5vw;
+	margin-top: 1.5vh;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		margin-bottom: 55px;
+	}
+	main {
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+}
+
+@keyframes moveNamePlate {
+	to {
+		margin-top: 10px;
+	}
+}
