@@ -57,6 +57,12 @@ main {
 	height: calc((60vw / 10) + 20px);
 	width: auto;
 }
+h1 {
+	text-align: center;
+}
+a {
+	color: #ffc105;
+}
 footer {
 	text-align: left;
 	margin-bottom: 1.5vw;
