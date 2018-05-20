@@ -73,7 +73,7 @@ footer span {
 	clear: left;
 }
 footer a {
-	float: right;
+	float: left;
 	clear: right;
 }
 
@@ -84,14 +84,6 @@ footer a {
 	main {
 		margin-left: 2.5%;
 		margin-right: 2.5%;
-	}
-}
-@media screen and (min-width: 800px) {
-	footer a {
-		float: left;
-	}
-	footer span:after {
-		content: "| ";
 	}
 }
 
