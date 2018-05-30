@@ -79,7 +79,12 @@ element.parentNode.removeChild(element);
 			
 		</script>
 	</head>
-	<body>
+	<body class="cookiebanner">
+		<div id="cookie-law">
+			<div class="cookie-law-holder">
+				<p>Our website uses cookies. By continuing we assume your permission to deploy cookies, as detailed in our <a href=""/privacy-cookies-policy/" rel="nofollow" title="Privacy &amp; Cookies Policy">privacy and cookies policy</a></p>
+			</div>
+		</div>
 		<div id='nav'>
 			<a href="/" style="text-decoration: none;">
 				<nav>
@@ -130,4 +135,23 @@ element.parentNode.removeChild(element);
 			</div>
 		</main>
 	</body>
+	<style>
+		#cookie-law { 
+			max-width:940px;
+			background:#EEEADD; 
+			margin:10px auto 0; 
+			border-radius: 17px;
+			-webkit-border-radius: 17px;
+			-moz-border-radius: 17px;
+		}
+		 
+		#cookie-law p { 
+			padding:10px; 
+			font-size:1.2em; 
+			font-weight:bold; 
+			text-align:center; 
+			color:#682008; 
+			margin:0;
+		}
+	</style>
 </html>
