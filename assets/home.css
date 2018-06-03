@@ -8,6 +8,7 @@ h3 {
 	text-decoration: none;
 	border-radius: 5px;
 	cursor: pointer;
+	text-align: left;
 }
 #typedTitle {
 	text-align: center;
