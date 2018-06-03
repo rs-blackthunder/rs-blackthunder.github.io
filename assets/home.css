@@ -2,10 +2,12 @@ h3 {
 	text-align: left;
 }
 .blog-link {
-	padding: 15px 10px;
+	padding: 10px 15px;
 	background: #ffc105;
 	color: white;
 	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
 }
 #typedTitle {
 	text-align: center;
