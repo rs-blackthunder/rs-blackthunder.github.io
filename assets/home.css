@@ -1,3 +1,11 @@
+h3 {
+	text-align: left;
+}
+.blog-link {
+	padding: 15px 10px;
+	background: #ffc105;
+	color: white;
+}
 #typedTitle {
 	text-align: center;
 	position: relative;
