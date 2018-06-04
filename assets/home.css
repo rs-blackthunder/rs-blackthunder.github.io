@@ -1,14 +1,13 @@
-h3 {
+.blog-link {
 	text-align: left;
 }
-.blog-link {
+.blog-link a {
 	padding: 10px 15px;
 	background: #ffc105;
 	color: white;
 	text-decoration: none;
 	border-radius: 5px;
 	cursor: pointer;
-	text-align: left;
 }
 #typedTitle {
 	text-align: center;
