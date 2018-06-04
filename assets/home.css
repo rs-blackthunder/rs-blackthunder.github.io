@@ -70,9 +70,9 @@
 	height: 50px;
 	width: 80px;
 	cursor: pointer;
-	display: none;
 }
 .skip-button {
+	display: none;
 	z-index: 5;
 	position: fixed;
 	bottom: 55px;
