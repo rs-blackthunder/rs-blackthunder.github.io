@@ -43,13 +43,31 @@
 	height: calc(89vh - 6vw - 20px);
 	margin-top: 5vh;
 }
+/* #skip { */
+	/* border: none; */
+	/* position: fixed; */
+	/* bottom: 55px; */
+	/* right: 10px; */
+	/* background-color: #ffc105; */
+	/* border-radius: 5px; */
+	/* z-index: 5; */
+	/* color: white; */
+	/* font-size: 25px; */
+	/* height: 50px; */
+	/* width: 80px; */
+	/* cursor: pointer; */
+	/* display: none; */
+/* } */
+/* #skip span { */
+	/* padding-top: 50px; */
+/* } */
+
 #skip {
 	border: none;
 	position: fixed;
 	bottom: 55px;
 	right: 10px;
-	background-color: #ffc105;
-	border-radius: 5px;
+	background: transparent;
 	z-index: 5;
 	color: white;
 	font-size: 25px;
@@ -57,9 +75,6 @@
 	width: 80px;
 	cursor: pointer;
 	display: none;
-}
-#skip span {
-	padding-top: 50px;
 }
 .YTContainer {
 	position: relative;
