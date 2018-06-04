@@ -73,6 +73,11 @@
 	cursor: pointer;
 	display: none;
 }
+.skip-button {
+	position: fixed;
+	bottom: 55px;
+	right: 10px;
+}
 .YTContainer {
 	position: relative;
 	top: 10vh;
