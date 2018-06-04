@@ -1,14 +1,14 @@
-.blog-link {
-	text-align: left;
-}
-.blog-link a {
-	padding: 10px 15px;
-	background: #ffc105;
-	color: white;
-	text-decoration: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
+/* .blog-link { */
+	/* text-align: left; */
+/* } */
+/* .blog-link a { */
+	/* padding: 10px 15px; */
+	/* background: #ffc105; */
+	/* color: white; */
+	/* text-decoration: none; */
+	/* border-radius: 5px; */
+	/* cursor: pointer; */
+/* } */
 #typedTitle {
 	text-align: center;
 	position: relative;
