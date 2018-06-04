@@ -64,9 +64,6 @@
 
 #skip {
 	border: none;
-	position: fixed;
-	bottom: 55px;
-	right: 10px;
 	background: transparent;
 	z-index: 5;
 	color: white;
