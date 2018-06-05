@@ -54,7 +54,7 @@ function typewriterTitle()
 var aTextText = new Array(
 "We are Black Thunder: a First LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.",
 "",
-"We have a blog, YouTube channel and Twitter feed, all of which can be seen below."
+"We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below."
 );
 var iSpeedText = 30; // time delay of print out
 var iIndexText = 0; // start printing array at this posision
@@ -93,7 +93,7 @@ function removeUnderscoreTitle() {
 }
 function removeUnderscoreMainText() {
 	var destination = document.getElementById("typedText");
-	destination.innerHTML = "We are Black Thunder: a First LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.<br/><br/>We have a blog, YouTube channel and Twitter feed, all of which can be seen below.";
+	destination.innerHTML = "We are Black Thunder: a First LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.<br/><br/>We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below.";
 	$('.skip-button').fadeOut(500);
 }
 
