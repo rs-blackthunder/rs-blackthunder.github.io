@@ -71,7 +71,7 @@
 	/* width: 80px; */
 	/* cursor: pointer; */
 /* } */
-.skip-button-container {
+.skip-button {
 	z-index: 5;
 	position: fixed;
 	bottom: 55px;
@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 800px) {
-	.skip-button-container {
+	.skip-button {
 		bottom: 105px;
 	}
 	#YTChannel {
