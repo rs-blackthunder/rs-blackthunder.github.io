@@ -142,7 +142,7 @@ function skip() {
 		clearTimeout(i);
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
-		await sleep(2000);
+		// await sleep(2000);
 		document.getElementsByClassName("YTContainer")[0].style.display = "block";
 		$( ".YTContainer" ).animate({
 			opacity: 1,
