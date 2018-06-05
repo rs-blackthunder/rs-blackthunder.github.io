@@ -1,14 +1,6 @@
-/* .blog-link { */
-	/* text-align: left; */
-/* } */
-/* .blog-link a { */
-	/* padding: 10px 15px; */
-	/* background: #ffc105; */
-	/* color: white; */
-	/* text-decoration: none; */
-	/* border-radius: 5px; */
-	/* cursor: pointer; */
-/* } */
+.blog-link {
+	position: relative;
+}
 #typedTitle {
 	text-align: center;
 	position: relative;
@@ -43,34 +35,6 @@
 	height: calc(89vh - 6vw - 20px);
 	margin-top: 5vh;
 }
-/* #skip { */
-	/* border: none; */
-	/* position: fixed; */
-	/* bottom: 55px; */
-	/* right: 10px; */
-	/* background-color: #ffc105; */
-	/* border-radius: 5px; */
-	/* z-index: 5; */
-	/* color: white; */
-	/* font-size: 25px; */
-	/* height: 50px; */
-	/* width: 80px; */
-	/* cursor: pointer; */
-	/* display: none; */
-/* } */
-/* #skip span { */
-	/* padding-top: 50px; */
-/* } */
-
-/* #skip { */
-	/* border: none; */
-	/* background: transparent; */
-	/* color: white; */
-	/* font-size: 25px; */
-	/* height: 50px; */
-	/* width: 80px; */
-	/* cursor: pointer; */
-/* } */
 .skip-button {
 	z-index: 5;
 	position: fixed;
@@ -109,7 +73,6 @@
 /* Fancy Button Animation Start */
 
 .fancy-button, .scene {
-  /* height: 100vh; */
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -117,15 +80,6 @@
   -webkit-display: flex;
   -webkit-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  /* position: absolute; */
-  /* top: 0; */
-  /* right: 0; */
-  /* bottom: 0; */
-  /* left: 0; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* -webkit-justify-content: center; */
-  /* -webkit-align-items: center; */
 }
 
 .fancy-button a {
