@@ -62,21 +62,21 @@
 	/* padding-top: 50px; */
 /* } */
 
-#skip {
-	border: none;
-	background: transparent;
-	color: white;
-	font-size: 25px;
-	height: 50px;
-	width: 80px;
-	cursor: pointer;
-}
-.skip-button {
-	display: none;
+/* #skip { */
+	/* border: none; */
+	/* background: transparent; */
+	/* color: white; */
+	/* font-size: 25px; */
+	/* height: 50px; */
+	/* width: 80px; */
+	/* cursor: pointer; */
+/* } */
+.skip-button-container {
 	z-index: 5;
 	position: fixed;
 	bottom: 55px;
 	right: 10px;
+	display: none;
 }
 .YTContainer {
 	position: relative;
@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 800px) {
-	#skip {
+	.skip-button-container {
 		bottom: 105px;
 	}
 	#YTChannel {
