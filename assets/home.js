@@ -143,6 +143,7 @@ function skip() {
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
 		document.getElementsByClassName("YTContainer")[0].style.display = "block";
+		await sleep(2000);
 		$( ".YTContainer" ).animate({
 			opacity: 1,
 			top: "-=10vh"
