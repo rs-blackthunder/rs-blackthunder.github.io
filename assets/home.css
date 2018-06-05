@@ -117,10 +117,15 @@
   -webkit-display: flex;
   -webkit-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* -webkit-justify-content: center; */
-  /* -webkit-align-items: center; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
 }
 
 .fancy-button a {
