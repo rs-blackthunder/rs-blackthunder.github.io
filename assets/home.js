@@ -142,15 +142,16 @@ function skip() {
 		clearTimeout(i);
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
-		sleep(2000);
-		document.getElementsByClassName("YTContainer")[0].style.display = "block";
-		$( ".YTContainer" ).animate({
-			opacity: 1,
-			top: "-=10vh"
-		}, 500);
-		$("#typedText").animate({
-			marginBottom: "15px"
-		}, 500);
+		setTimeout(function {
+			document.getElementsByClassName("YTContainer")[0].style.display = "block";
+			$( ".YTContainer" ).animate({
+				opacity: 1,
+				top: "-=10vh"
+			}, 500);
+			$("#typedText").animate({
+				marginBottom: "15px"
+			}, 500);
+		}, 2000);
 	}
 };
 
