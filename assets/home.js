@@ -147,7 +147,7 @@ function skip() {
 			$( ".YTContainer" ).animate({
 				opacity: 1,
 				top: "-=10vh"
-			}, 500);
+			}, 2000);
 			$("#typedText").animate({
 				marginBottom: "15px"
 			}, 500);
