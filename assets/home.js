@@ -128,7 +128,7 @@ setTimeout(function() {
 }, 2000);
 
 function skip() {
-	if !(buttonClick) {
+	if (buttonClick == false) {
 		buttonClick = true;
 		clearTimeout(a);
 		clearTimeout(b);
@@ -148,7 +148,7 @@ function skip() {
 				top: "-=10vh"
 			}, 500);
 			YTContainerMoved = true;
-			while !(YTContainerMoved) {};
+			while (YTContainerMoved == false) {};
 			$("#typedText").animate({
 				marginBottom: "15px"
 			}, 500);
