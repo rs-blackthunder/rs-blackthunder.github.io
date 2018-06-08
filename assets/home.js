@@ -98,6 +98,7 @@ function removeUnderscoreMainText() {
 }
 
 var buttonClick = false
+var YTContainerMoved = false
 
 e=setTimeout(typewriterTitle, 2000);
 f=setTimeout(removeUnderscoreTitle, 6500);
@@ -110,6 +111,7 @@ i=setTimeout(function(){
 		opacity: 1,
 		top: "-=10vh"
 	}, 500);
+	YTContainerMoved = true;
 	$("#typedText").animate({
 		marginBottom: "15px"
 	}, 500);
@@ -126,10 +128,7 @@ setTimeout(function() {
 }, 2000);
 
 function skip() {
-	if (buttonClick) {
-        return;
-    }
-    else {
+	if !(buttonClick) {
 		buttonClick = true;
 		clearTimeout(a);
 		clearTimeout(b);
@@ -147,7 +146,9 @@ function skip() {
 			$( ".YTContainer" ).animate({
 				opacity: 1,
 				top: "-=10vh"
-			}, 2000);
+			}, 500);
+			YTContainerMoved = true;
+			while !(YTContainerMoved) {};
 			$("#typedText").animate({
 				marginBottom: "15px"
 			}, 500);
