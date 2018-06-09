@@ -146,7 +146,7 @@ function skip() {
 		clearTimeout(i);
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
-		while (YTContainerMoved == false) {alert("wait");};
+		while (YTContainerMoved == false) {};
 		document.getElementsByClassName("YTContainer")[0].style.display = "block";
 		$( ".YTContainer" ).animate({
 			opacity: 1,
