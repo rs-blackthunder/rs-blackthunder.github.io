@@ -85,9 +85,6 @@ function typewriterText()
 	} else {
 		d=setTimeout("typewriterText()", iSpeedText);
 	}
-	var destination = document.getElementById("typedText");
-	destination.innerHTML = "We are Black Thunder: a FIRST LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.<br/><br/>We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below.";
-	$('.skip-button').fadeOut(500);
 }
 
 function removeUnderscoreTitle() {
@@ -102,9 +99,9 @@ function removeUnderscoreMainText() {
 
 
 e=setTimeout(typewriterTitle, 2000);
-// f=setTimeout(removeUnderscoreTitle, 6500);
+f=setTimeout(removeUnderscoreTitle, 6500);
 g=setTimeout(typewriterText, 5000);
-// h=setTimeout(removeUnderscoreMainText, 18000);
+h=setTimeout(removeUnderscoreMainText, 18000);
 i=setTimeout(function(){
 	buttonClick = true
 	document.getElementsByClassName("YTContainer")[0].style.display = "block";
