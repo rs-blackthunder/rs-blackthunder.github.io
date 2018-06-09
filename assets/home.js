@@ -122,14 +122,26 @@ $('a').attr('target','_blank');
 // SKIP BUTTON START //
 
 var buttonClick = false
-var YTContainerMoved = false
+var animateAsNormal = false
 
 setTimeout(function() {
 	$(".skip-button").fadeIn();
 }, 2000);
 
-setTimeout(function(){
-	YTContainerMoved = true;
+setTimeout(function() {
+	if (buttonClick) {
+		document.getElementsByClassName("YTContainer")[0].style.display = "block";
+		$( ".YTContainer" ).animate({
+			opacity: 1,
+			top: "-=10vh"
+		}, 500);
+		$("#typedText").animate({
+			marginBottom: "15px"
+		}, 500);
+	}
+	else {
+		animateAsNormal = true
+	}
 }, 4550);
 
 function skip() {
@@ -146,15 +158,16 @@ function skip() {
 		clearTimeout(i);
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
-		while (YTContainerMoved == false) {};
-		document.getElementsByClassName("YTContainer")[0].style.display = "block";
-		$( ".YTContainer" ).animate({
-			opacity: 1,
-			top: "-=10vh"
-		}, 500);
-		$("#typedText").animate({
-			marginBottom: "15px"
-		}, 500);
+		if (animateAsNormal) {
+			document.getElementsByClassName("YTContainer")[0].style.display = "block";
+			$( ".YTContainer" ).animate({
+				opacity: 1,
+				top: "-=10vh"
+			}, 500);
+			$("#typedText").animate({
+				marginBottom: "15px"
+			}, 500);
+		}
 	}
 };
 
