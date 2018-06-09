@@ -141,18 +141,18 @@ function skip() {
 		clearTimeout(i);
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
-		setTimeout(function() {
+		YTContainerMoved = true;
+		while (YTContainerMoved == false) {};
+		// setTimeout(function() {
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
 			$( ".YTContainer" ).animate({
 				opacity: 1,
 				top: "-=10vh"
 			}, 500);
-			YTContainerMoved = true;
-			while (YTContainerMoved == false) {};
 			$("#typedText").animate({
 				marginBottom: "15px"
 			}, 500);
-		}, 2000);
+		// }, 2000);
 	}
 };
 
