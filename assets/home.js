@@ -97,8 +97,6 @@ function removeUnderscoreMainText() {
 	$('.skip-button').fadeOut(500);
 }
 
-var buttonClick = false
-var YTContainerMoved = false
 
 e=setTimeout(typewriterTitle, 2000);
 f=setTimeout(removeUnderscoreTitle, 6500);
@@ -123,9 +121,16 @@ $('a').attr('target','_blank');
 
 // SKIP BUTTON START //
 
+var buttonClick = false
+var YTContainerMoved = false
+
 setTimeout(function() {
 	$(".skip-button").fadeIn();
 }, 2000);
+
+setTimeout(function(){
+	YTContainerMoved = true;
+}, 4550);
 
 function skip() {
 	if (buttonClick == false) {
@@ -141,18 +146,15 @@ function skip() {
 		clearTimeout(i);
 		removeUnderscoreTitle();
 		removeUnderscoreMainText();
-		YTContainerMoved = true;
-		while (YTContainerMoved == false) {};
-		// setTimeout(function() {
-			document.getElementsByClassName("YTContainer")[0].style.display = "block";
-			$( ".YTContainer" ).animate({
-				opacity: 1,
-				top: "-=10vh"
-			}, 500);
-			$("#typedText").animate({
-				marginBottom: "15px"
-			}, 500);
-		// }, 2000);
+		while (YTContainerMoved == false) {alert("wait");};
+		document.getElementsByClassName("YTContainer")[0].style.display = "block";
+		$( ".YTContainer" ).animate({
+			opacity: 1,
+			top: "-=10vh"
+		}, 500);
+		$("#typedText").animate({
+			marginBottom: "15px"
+		}, 500);
 	}
 };
 
