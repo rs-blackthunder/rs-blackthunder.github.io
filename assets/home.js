@@ -6,8 +6,6 @@ var c
 var d
 var e
 var f
-var g
-var h
 
 // TITLE
 
@@ -109,7 +107,7 @@ function typewriterText()
 }
 
 e=setTimeout(typewriterTitle, 2000);
-g=setTimeout(typewriterText, 5000);
+f=setTimeout(typewriterText, 5000);
 
 // TYPEWRITER END //
 
@@ -147,10 +145,8 @@ function skip() {
 		// clearTimeout(d);
 		iSpeed = 1;
 		iSpeedText = 1;
-		clearTimeout(e);
-		clearTimeout(f);
-		clearTimeout(g);
-		clearTimeout(h);
+		// clearTimeout(e);
+		// clearTimeout(f);
 		// document.getElementById("typedTitle").innerHTML = aText.join("<br>");
 		// document.getElementById("typedText").innerHTML = aTextText.join("<br>");
 		// if (animateAsNormal) {
