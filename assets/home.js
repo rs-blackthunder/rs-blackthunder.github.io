@@ -60,7 +60,7 @@ var aTextText = new Array(
 "We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below."
 );
 var iSpeedText = 30; // time delay of print out
-var iIndexText = 0; // start printing array at this posision
+var iIndexText = 0; // start printing array at this position
 var iArrLengthText = aTextText[0].length; // the length of the text array
 var iScrollAtText = 20; // start scrolling up at this many lines
 
