@@ -115,9 +115,9 @@ footer {
 
 /* Fancy Button Animation Start */
 
-.fancy-button, .scene {
+.fancy-button {
   overflow: hidden;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-display: flex;
