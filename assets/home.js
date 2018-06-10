@@ -31,7 +31,7 @@ function typewriterTitle()
 	var destination = document.getElementById("typedTitle");
  
 	while ( iRow < iIndex ) {
-		sContents += aText[iRow++] + '<br />';
+		sContents += aText[iRow++] + '<br>';
 	}
 	destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
 	if ( iTextPos++ == iArrLength ) {
@@ -77,7 +77,7 @@ function typewriterText()
 	var destinationText = document.getElementById("typedText");
  
 	while ( iRowText < iIndexText ) {
-		sContentsText += aTextText[iRowText++] + '<br />';
+		sContentsText += aTextText[iRowText++] + '<br>';
 	}
 	destinationText.innerHTML = sContentsText + aTextText[iIndexText].substring(0, iTextPosText) + "_";
 	if ( iTextPosText++ == iArrLengthText ) {
@@ -141,14 +141,18 @@ setTimeout(function() {
 function skip() {
 	if (buttonClick == false) {
 		buttonClick = true;
-		clearTimeout(a);
-		clearTimeout(b);
-		clearTimeout(c);
-		clearTimeout(d);
+		// clearTimeout(a);
+		// clearTimeout(b);
+		// clearTimeout(c);
+		// clearTimeout(d);
+		iSpeed = 1;
+		iSpeedText = 1;
 		clearTimeout(e);
 		clearTimeout(f);
 		clearTimeout(g);
 		clearTimeout(h);
+		// document.getElementById("typedTitle").innerHTML = aText.join("<br>");
+		// document.getElementById("typedText").innerHTML = aTextText.join("<br>");
 		if (animateAsNormal) {
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
 			$( ".YTContainer" ).animate({
