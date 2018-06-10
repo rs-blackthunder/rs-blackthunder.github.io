@@ -8,7 +8,6 @@ var e
 var f
 var g
 var h
-var i
 
 // TITLE
 
@@ -45,7 +44,6 @@ function typewriterTitle()
 		else {
 			setTimeout(function() {
 				var destination = document.getElementById("typedTitle");
-				// destination.innerHTML = "Welcome";
 				destination.innerHTML = destination.innerHTML.substring(0, destination.innerHTML.length - 1);
 			}, 500);
 		}
@@ -92,7 +90,6 @@ function typewriterText()
 		else {
 			setTimeout(function() {
 				var destination = document.getElementById("typedText");
-				// destination.innerHTML = "We are Black Thunder: a FIRST LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.<br/><br/>We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below.";
 				destination.innerHTML = destination.innerHTML.substring(0, destination.innerHTML.length - 1);
 				$('.skip-button').fadeOut(500);
 				document.getElementsByClassName("YTContainer")[0].style.display = "block";
@@ -113,17 +110,6 @@ function typewriterText()
 
 e=setTimeout(typewriterTitle, 2000);
 g=setTimeout(typewriterText, 5000);
-// i=setTimeout(function(){
-	// document.getElementsByClassName("YTContainer")[0].style.display = "block";
-	// $(".YTContainer").animate({
-		// opacity: 1,
-		// top: "-=10vh"
-	// }, 500);
-	// YTContainerMoved = true;
-	// $("#typedText").animate({
-		// marginBottom: "15px"
-	// }, 500);
-// }, 16000);
 
 // TYPEWRITER END //
 
@@ -163,7 +149,6 @@ function skip() {
 		clearTimeout(f);
 		clearTimeout(g);
 		clearTimeout(h);
-		// clearTimeout(i);
 		if (animateAsNormal) {
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
 			$( ".YTContainer" ).animate({
