@@ -127,6 +127,11 @@ function skip() {
 		iSpeedText = 0;
 		document.getElementById("typedTitle").innerHTML = aText.join("<br>");
 		document.getElementById("typedText").innerHTML = aTextText.join("<br>");
+		iTextPos = iArrLength - 1
+		iTextPosText = iArrLengthText - 1
+		iIndex = aText.length
+		iIndexText = aTextText.length
+		
 	}
 };
 
