@@ -1,12 +1,5 @@
 // TYPEWRITER START //
 
-var a
-var b
-var c
-var d
-var e
-var f
-
 // TITLE
 
 // set up text to print, each item in array is new line
@@ -37,7 +30,12 @@ function typewriterTitle()
 		iIndex++;
 		if ( iIndex != aText.length ) {
 			iArrLength = aText[iIndex].length;
-			c=setTimeout("typewriterTitle()", 500);
+			if (buttonClick) {
+				setTimeout("typewriterTitle()", 100);
+			}
+			else {
+				setTimeout("typewriterTitle()", 500);
+			}
 		}
 		else {
 			setTimeout(function() {
@@ -46,7 +44,7 @@ function typewriterTitle()
 			}, 500);
 		}
 	} else {
-		b=setTimeout("typewriterTitle()", iSpeed);
+		setTimeout("typewriterTitle()", iSpeed);
 	}
 }
 
@@ -83,7 +81,12 @@ function typewriterText()
 		iIndexText++;
 		if ( iIndexText != aTextText.length ) {
 			iArrLengthText = aTextText[iIndexText].length;
-			c=setTimeout("typewriterText()", 500);
+			if (buttonClick) {
+				setTimeout("typewriterText()", 100);
+			}
+			else {
+				setTimeout("typewriterText()", 500);
+			}
 		}
 		else {
 			setTimeout(function() {
@@ -102,12 +105,12 @@ function typewriterText()
 			}, 500);
 		}
 	} else {
-		d=setTimeout("typewriterText()", iSpeedText);
+		setTimeout("typewriterText()", iSpeedText);
 	}
 }
 
-e=setTimeout(typewriterTitle, 2000);
-f=setTimeout(typewriterText, 5000);
+setTimeout(typewriterTitle, 2000);
+setTimeout(typewriterText, 5000);
 
 // TYPEWRITER END //
 
@@ -125,13 +128,6 @@ function skip() {
 		buttonClick = true;
 		iSpeed = 0;
 		iSpeedText = 0;
-		document.getElementById("typedTitle").innerHTML = aText.join("<br>");
-		document.getElementById("typedText").innerHTML = aTextText.join("<br>");
-		iTextPos = iArrLength - 1
-		iTextPosText = iArrLengthText - 1
-		iIndex = aText.length
-		iIndexText = aTextText.length
-		
 	}
 };
 
