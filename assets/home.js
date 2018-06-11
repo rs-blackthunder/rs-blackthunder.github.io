@@ -125,6 +125,8 @@ function skip() {
 		buttonClick = true;
 		iSpeed = 0;
 		iSpeedText = 0;
+		document.getElementById("typedTitle").innerHTML = aText.join("<br>");
+		document.getElementById("typedText").innerHTML = aTextText.join("<br>");
 	}
 };
 
