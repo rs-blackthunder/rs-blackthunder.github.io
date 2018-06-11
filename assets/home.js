@@ -31,7 +31,7 @@ function typewriterTitle()
 		if ( iIndex != aText.length ) {
 			iArrLength = aText[iIndex].length;
 			if (buttonClick) {
-				setTimeout("typewriterTitle()", 100);
+				setTimeout("typewriterTitle()", 10);
 			}
 			else {
 				setTimeout("typewriterTitle()", 500);
@@ -82,7 +82,7 @@ function typewriterText()
 		if ( iIndexText != aTextText.length ) {
 			iArrLengthText = aTextText[iIndexText].length;
 			if (buttonClick) {
-				setTimeout("typewriterText()", 100);
+				setTimeout("typewriterText()", 10);
 			}
 			else {
 				setTimeout("typewriterText()", 500);
