@@ -116,8 +116,6 @@ setTimeout(function() {
 function skip() {
 	if (buttonClick == false) {
 		buttonClick = true;
-		iSpeed = 0;
-		iSpeedText = 0;
 		iTextPosText = iArrLengthText - 1;
 		iIndexText = aTextText.length + 1;
 		document.getElementById("typedText").innerHTML = aTextText.join("<br>");
