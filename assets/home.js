@@ -87,7 +87,6 @@ function typewriterText()
 					opacity: 1,
 					top: "-=10vh"
 				}, 500);
-				YTContainerMoved = true;
 				$("#typedText").animate({
 					marginBottom: "15px"
 				}, 500);
