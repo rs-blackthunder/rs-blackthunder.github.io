@@ -80,8 +80,7 @@ function typewriterText()
 		}
 		else {
 			setTimeout(function() {
-				var destination = document.getElementById("typedText");
-				destination.innerHTML = destination.innerHTML.substring(0, destination.innerHTML.length - 1);
+				document.getElementById("typedText").innerHTML = aTextText.join("<br>");
 				$('.skip-button').fadeOut(500);
 				document.getElementsByClassName("YTContainer")[0].style.display = "block";
 				$(".YTContainer").animate({
@@ -117,7 +116,7 @@ function skip() {
 	if (buttonClick == false) {
 		buttonClick = true;
 		iTextPosText = iArrLengthText - 1;
-		iIndexText = aTextText.length + 1;
+		iIndexText = aTextText.length - 1;
 		document.getElementById("typedText").innerHTML = aTextText.join("<br>");
 	}
 };
