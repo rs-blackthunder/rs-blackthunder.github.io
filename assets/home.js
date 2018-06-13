@@ -34,8 +34,7 @@ function typewriterTitle()
 		}
 		else {
 			setTimeout(function() {
-				var destination = document.getElementById("typedTitle");
-				destination.innerHTML = destination.innerHTML.substring(0, destination.innerHTML.length - 1);
+				document.getElementById("typedTitle").innerHTML = destination.innerHTML.substring(0, destination.innerHTML.length - 1);
 			}, 500);
 		}
 	} else {
@@ -116,7 +115,6 @@ function skip() {
 		buttonClick = true;
 		iTextPosText = iArrLengthText - 1;
 		iIndexText = aTextText.length - 1;
-		document.getElementById("typedText").innerHTML = aTextText.join("<br>");
 	}
 };
 
