@@ -1,7 +1,7 @@
 #typedTitle {
 	text-align: center;
 	position: relative;
-	top: 30vh;
+	top: 20vh;
 	font-size: 5vh;
 	animation-name: moveTitle;
 	animation-duration: 1.5s;
