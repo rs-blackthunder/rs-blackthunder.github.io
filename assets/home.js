@@ -1,6 +1,8 @@
 // TYPEWRITER START //
 
-var aTextTextTemp = document.getElementById("typedText").innerHTML
+var sTextTextTemp = document.getElementById("typedText").innerHTML
+var aTextTextTemp = sTextTextTemp.split("")
+document.getElementById("typedTitle").innerHTML = aTextTextTemp
 
 // TITLE
 
