@@ -1,22 +1,57 @@
-#typedTitle {
+#title {
 	text-align: center;
 	position: relative;
 	top: 15vh;
 	font-size: 5vh;
-	animation-name: moveTitle;
+	animation-name: moveContent;
 	animation-duration: 1.5s;
 	animation-delay: 3.05s;
 	animation-fill-mode: forwards;
 }
-#typedText {
+#mainContent {
 	text-align: left;
-	position: relative;
-	top: 30vh;
-	animation-name: moveTitle;
+	/* animation-name: moveContent;
 	animation-duration: 1.5s;
 	animation-delay: 3.05s;
-	animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
 	margin-bottom: 200px;
+}
+#mainContent span {
+	position: relative;
+	top: 30vh;
+	animation-name: moveContent;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+#mainContent span:nth-of-type(1) {
+	animation-delay: 3.05s;
+}
+#mainContent span:nth-of-type(2) {
+	animation-delay: 3.85s;
+}
+#mainContent span:nth-of-type(3) {
+	animation-delay: 4.65s;
+}
+#mainContent span:nth-of-type(4) {
+	animation-delay: 5.45s;
+}
+#mainContent span:nth-of-type(5) {
+	animation-delay: 6.25s;
+}
+#mainContent span:nth-of-type(6) {
+	animation-delay: 7.05s;
+}
+#mainContent span:nth-of-type(7) {
+	animation-delay: 7.85s;
+}
+#mainContent span:nth-of-type(8) {
+	animation-delay: 8.65s;
+}
+#mainContent span:nth-of-type(9) {
+	animation-delay: 9.45s;
+}
+#mainContent span:nth-of-type(10) {
+	animation-delay: 10.25s;
 }
 #YTChannel {
 	width: calc(90vw - 130px);
@@ -57,7 +92,7 @@
 	}
 }
 
-@keyframes moveTitle {
+@keyframes moveContent {
 	to {
 		top: 0px;
 	}
