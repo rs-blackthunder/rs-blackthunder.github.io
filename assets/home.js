@@ -30,7 +30,7 @@ function typeTitle()
 		intIndex++;
 		if ( intIndex != arrText.length ) {
 			intArrayLength = arrText[intIndex].length;
-			setTimeout("typewriterTitle()", intSpeed);
+			setTimeout("typeTitle()", intSpeed);
 		}
 		else {
 			setTimeout(function() {
@@ -49,7 +49,7 @@ function typeTitle()
 			}, 500);
 		}
 	} else {
-		setTimeout("typewriterTitle()", intSpeed);
+		setTimeout("typeTitle()", intSpeed);
 	}
 }
 
