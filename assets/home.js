@@ -1,9 +1,5 @@
 // TYPEWRITER START //
 
-function test() {
-	var aTextTextTemp = document.getElementById("typedTitle").innerHTML.split("")
-	document.getElementById("typedText").innerHTML = aTextTextTemp
-}
 // TITLE
 
 // set up text to print, each item in array is new line
@@ -58,7 +54,9 @@ function typewriterTitle()
 var aTextText = new Array(
 "We are Black Thunder: a FIRST LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.",
 "",
-"We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below."
+"We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below.",
+"",
+"To contact us, please email us at <a href='mailto:contact@blackthunderfll.ga'>contact@blackthunderfll.ga</a>."
 );
 var iSpeedText = 30; // time delay of print out
 var iIndexText = 0; // start printing array at this position
