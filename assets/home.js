@@ -1,6 +1,6 @@
 // TYPEWRITER START //
 
-window.onload = function() {
+function test() {
 	var aTextTextTemp = document.getElementById("typedTitle").innerHTML.split("")
 	document.getElementById("typedText").innerHTML = aTextTextTemp
 }
