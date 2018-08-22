@@ -22,6 +22,7 @@
 	animation-name: moveContent;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
+	opacity: 0;
 }
 #mainContent span:nth-of-type(1) {
 	animation-delay: 3.05s;
@@ -95,5 +96,6 @@
 @keyframes moveContent {
 	to {
 		top: 0px;
+		opacity: 1;
 	}
 }
