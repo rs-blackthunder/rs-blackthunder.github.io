@@ -1,7 +1,7 @@
 // TYPEWRITER START //
 
-document.getElementById("typedText").innerHTML = null
-document.getElementById("typedTitle").innerHTML  = null
+document.getElementById("typedText").innerHTML = ""
+document.getElementById("typedTitle").innerHTML  = ""
 
 // TITLE
 
