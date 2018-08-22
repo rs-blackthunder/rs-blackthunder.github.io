@@ -1,5 +1,7 @@
 // TYPEWRITER START //
 
+var aTextTemp = document.getElementById("typedTitle").innerHTML.split("<br>")
+
 // TITLE
 
 // set up text to print, each item in array is new line
