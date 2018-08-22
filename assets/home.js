@@ -1,9 +1,9 @@
 // TYPEWRITER START //
 
-var sTextTextTemp = document.getElementById("typedText").innerHTML
-var aTextTextTemp = sTextTextTemp.split("")
-document.getElementById("typedTitle").innerHTML = aTextTextTemp
-
+window.onload = function() {
+	var aTextTextTemp = document.getElementById("typedTitle").innerHTML.split("")
+	document.getElementById("typedText").innerHTML = aTextTextTemp
+}
 // TITLE
 
 // set up text to print, each item in array is new line
