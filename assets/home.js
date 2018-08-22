@@ -1,10 +1,5 @@
 // TYPEWRITER START //
 
-var destination = document.getElementById("typedTitle");
-var destinationText = document.getElementById("typedText");
-var aText = destination.innerHTML.split("<br>");
-var aTextText =destinationText.innerHTML.split("<br>");
-
 // TITLE
 
 // set up text to print, each item in array is new line
