@@ -8,38 +8,29 @@ var aTextText =destinationText.innerHTML.split("<br>");
 // TITLE
 
 // set up text to print, each item in array is new line
-<<<<<<< HEAD
 // var aText = new Array(
 // "Welcome"
 // );
-<<<<<<< HEAD
-=======
-var aText = document.getElementById("typedTitleContent").innerHTML.split("<br>");
->>>>>>> parent of bb61ca1... Attempt fix to text not typing
-=======
+
 var aText = new Array(
 "Welcome"
 );
->>>>>>> parent of a2710d6... Make editing main content more efficient
+
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
 var iArrLength = aText[0].length; // the length of the text array
 var iScrollAt = 20; // start scrolling up at this many lines
- 
+
 var iTextPos = 0; // initialise text position
-var sContents = ''; // initialise contents variable
+var sContents = ""; // initialise contents variable
 var iRow; // initialise current row
 
 function typewriterTitle()
 {
 	sContents =  ' ';
 	iRow = Math.max(0, iIndex-iScrollAt);
-<<<<<<< HEAD
-
-=======
 	var destination = document.getElementById("typedTitle");
- 
->>>>>>> parent of a2710d6... Make editing main content more efficient
+
 	while ( iRow < iIndex ) {
 		sContents += aText[iRow++] + '<br>';
 	}
@@ -65,23 +56,11 @@ function typewriterTitle()
 // MAIN TEXT
 
 // set up text to print, each item in array is new line
-<<<<<<< HEAD
-// var aTextText = new Array(
-// "We are Black Thunder: a FIRST LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.",
-// "",
-// "We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below."
-// );
-<<<<<<< HEAD
-=======
-var aTextText = document.getElementById("typedTextContent").innerHTML.split("<br>");
->>>>>>> parent of bb61ca1... Attempt fix to text not typing
-=======
 var aTextText = new Array(
 "We are Black Thunder: a FIRST LEGO League team from Reading School, UK. We are a group of around 40 11-16 year olds who enjoy robotics, and meet each Friday after school, to work on robot-related tasks; one of them is the FLL.",
 "",
 "We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below."
 );
->>>>>>> parent of a2710d6... Make editing main content more efficient
 var iSpeedText = 30; // time delay of print out
 var iIndexText = 0; // start printing array at this position
 var iArrLengthText = aTextText[0].length; // the length of the text array
@@ -95,12 +74,7 @@ function typewriterText()
 {
 	sContentsText =  ' ';
 	iRowText = Math.max(0, iIndexText-iScrollAtText);
-<<<<<<< HEAD
-
-=======
 	var destinationText = document.getElementById("typedText");
- 
->>>>>>> parent of a2710d6... Make editing main content more efficient
 	while ( iRowText < iIndexText ) {
 		sContentsText += aTextText[iRowText++] + '<br>';
 	}
