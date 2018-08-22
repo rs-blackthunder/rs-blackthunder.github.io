@@ -23,6 +23,24 @@
 			}
 
 			// END OF COOKIE POLICY CHECK //
+
+			// SCROLL UP BUTTON START //
+
+			$(window).scroll(function() {
+				if ($(this).scrollTop() >= 50) {
+					$('.top-scroll-button').fadeIn(500);
+				}
+				if ($(this).scrollTop() < 50) {
+					$('.top-scroll-button').fadeOut(500);
+				}
+			});
+			$('.top-scroll-button').click(function() {
+				$('body,html').animate({
+					scrollTop : 0
+				}, 500);
+			});
+
+			// SCROLL UP BUTTON END //
 		</script>
 	</head>
 	<body>
@@ -87,6 +105,10 @@
 				<div id='twitterContainer'>
 					<a class="twitter-timeline" href="https://twitter.com/blackthunderfll?ref_src=twsrc%5Etfw">Whoops! Something seems to have gone wrong! Click here to open our Twitter feed in a new tab.</a>
 				</div>
+				<noscript>
+					<a class='top-scroll-button' href="#top"><img alt='Scroll to top' src='/assets/arrow.png'/></a>
+				</noscript>
+				<a href="javascript:" class='top-scroll-button'><img alt='Scroll to top' src='/assets/arrow.png'/></a>
 				<footer>
 					&copy; Copyright Black Thunder FLL 2018 | <a href="/privacy-policy">Privacy Policy</a>
 				</footer>
