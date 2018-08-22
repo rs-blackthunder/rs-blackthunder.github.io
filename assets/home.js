@@ -1,5 +1,7 @@
 // TYPEWRITER START //
 
+var destination = document.getElementById("typedTitle");
+var destinationText = document.getElementById("typedText");
 destination.innerHTML = "";
 destinationText.innerHTML  = "";
 
@@ -23,7 +25,6 @@ function typewriterTitle()
 {
 	sContents =  ' ';
 	iRow = Math.max(0, iIndex-iScrollAt);
-	var destination = document.getElementById("typedTitle");
 
 	while ( iRow < iIndex ) {
 		sContents += aText[iRow++] + '<br>';
@@ -69,7 +70,6 @@ function typewriterText()
 {
 	sContentsText =  ' ';
 	iRowText = Math.max(0, iIndexText-iScrollAtText);
-	var destinationText = document.getElementById("typedText");
 
 	while ( iRowText < iIndexText ) {
 		sContentsText += aTextText[iRowText++] + '<br>';
