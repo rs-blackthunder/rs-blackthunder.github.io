@@ -52,7 +52,7 @@ function typewriterTitle()
 // "",
 // "We have a blog, YouTube channel and Twitter feed; our YouTube channel and Twitter feed can be seen below."
 // );
-var aTextText = document.getElementById("typedTextontent").innerHTML.split("<br>");
+var aTextText = document.getElementById("typedTextContent").innerHTML.split("<br>");
 var iSpeedText = 30; // time delay of print out
 var iIndexText = 0; // start printing array at this position
 var iArrLengthText = aTextText[0].length; // the length of the text array
