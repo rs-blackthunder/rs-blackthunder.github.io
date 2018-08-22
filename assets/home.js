@@ -1,6 +1,7 @@
 // TYPEWRITER START //
 
-var aTextTemp = document.getElementById("typedTitle").innerHTML.split("<br>")
+var aTextTemp = []
+aTextTemp = document.getElementById("typedTitle").innerHTML.split("<br>")
 
 // TITLE
 
