@@ -49,7 +49,7 @@ function typeTitle()
 				}, 500);
 			}, intYouTubeAnimationDelay);
 			$("#mainContent").animate({
-				marginBottom: "15px"
+				marginBottom: "30px"
 			}, 500);
 		}
 	} else {
