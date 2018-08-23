@@ -40,10 +40,14 @@ function typeTitle()
 			// Finishing
 			$('.skip-button').fadeOut(500);
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
-			$(".YTContainer").animate({
-				opacity: 1,
-				top: "-=10vh"
-			}, 500);
+			var intMainParagraphs = $("#mainContent > span").length
+			var intYouTubeAnimationDelay = (intMainParagraphs * 800) + 3000
+			setTimeout(function(){
+				$(".YTContainer").animate({
+					opacity: 1,
+					top: "-=10vh"
+				}, 500);
+			}, intYouTubeAnimationDelay);
 			$("#mainContent").animate({
 				marginBottom: "15px"
 			}, 500);
