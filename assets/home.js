@@ -6,7 +6,8 @@
 // "Welcome"
 // );
 
-var arrText = $("#title noscript").innerHTML.split("<br>");
+var arrText = $("#title").innerHTML.split("<br>");
+$("#title").innerHTML = ""
 
 var intSpeed = 100; // time delay of print out
 var intIndex = 0; // start printing array at this posision
