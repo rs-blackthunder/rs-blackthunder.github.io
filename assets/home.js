@@ -75,6 +75,7 @@ function skip() {
 		buttonClick = true;
 		intTextPosition = intArrayLength - 1;
 		intIndex = arrText.length - 1;
+		intYouTubeAnimationDelay += 800;
 	}
 };
 
