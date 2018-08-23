@@ -10,10 +10,6 @@
 }
 #mainContent {
 	text-align: left;
-	/* animation-name: moveContent;
-	animation-duration: 1.5s;
-	animation-delay: 3.05s;
-	animation-fill-mode: forwards; */
 	margin-bottom: 200px;
 }
 #mainContent span {
