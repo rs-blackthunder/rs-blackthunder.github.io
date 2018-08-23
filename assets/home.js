@@ -41,7 +41,7 @@ function typeTitle()
 			$('.skip-button').fadeOut(500);
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
 			var intMainParagraphs = $("#mainContent > span").length
-			var intYouTubeAnimationDelay = (intMainParagraphs * 800) + 3000
+			var intYouTubeAnimationDelay = intMainParagraphs * 800
 			setTimeout(function(){
 				$(".YTContainer").animate({
 					opacity: 1,
