@@ -2,9 +2,11 @@
 
 // set up text to print, each item in array is new line
 
-var arrText = new Array(
-"Welcome"
-);
+// var arrText = new Array(
+// "Welcome"
+// );
+
+var arrText = $("#title noscript").innerHTML.split("<br>");
 
 var intSpeed = 100; // time delay of print out
 var intIndex = 0; // start printing array at this posision
