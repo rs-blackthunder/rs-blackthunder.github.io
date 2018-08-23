@@ -80,15 +80,3 @@ function skip() {
 };
 
 // SKIP BUTTON END
-
-// TEXT ANIMATION START
-
-// var mainContent = document.getElementById("mainContent")
-// var arrMainContent = mainContent.innerHTML.split("<br>")
-// mainContent.innerHTML = "<span>" + arrMainContent.join("</span><br><span>") + "</span>"
-// var intParagraph = 0
-// $("#mainContent span:nth-of-type(" + (intParagraph ++) + ")").animate({
-//
-// }, 500);
-
-// TEXT ANIMATION END
