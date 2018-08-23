@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics  START-->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124482375-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-124482375-1');
+		</script>
+		<!-- Global site tag (gtag.js) - Google Analytics  END-->
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="/assets/roboto-mono.css" rel="stylesheet">
 		<title>Black Thunder FLL</title>
@@ -17,15 +28,12 @@
 		<link rel="stylesheet" type="text/css" href="/assets/global.css">
 		<script>
 			// CHECK COOKIE POLICY HAS BEEN ACCEPTED //
-
 			if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") != "true") {
 				window.location = "/cookieSplash"
 			}
-
 			// END OF COOKIE POLICY CHECK //
 
 			// SCROLL UP BUTTON START //
-
 			$(window).scroll(function() {
 				if ($(this).scrollTop() >= 50) {
 					$('.top-scroll-button').fadeIn(500);
@@ -39,7 +47,6 @@
 					scrollTop : 0
 				}, 500);
 			}
-
 			// SCROLL UP BUTTON END //
 		</script>
 	</head>
