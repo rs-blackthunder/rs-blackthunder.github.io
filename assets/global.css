@@ -255,9 +255,9 @@ footer {
 	top: 5px;
 }
 .top-scroll-button img {
-	position: absolute;
+	/* position: absolute;
 	right: 7.5px;
-	top: 10.5px;
+	top: 10.5px; */
 	padding: 5px;
 	width: 35px;
 	height: auto;
