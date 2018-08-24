@@ -106,7 +106,7 @@ footer {
 		margin-bottom: 110px;
 	}
 	.top-scroll-button {
-		bottom: 80px;
+		bottom: 70px;
 	}
 }
 
@@ -256,9 +256,6 @@ footer {
 }
 .top-scroll-button:hover img {
 	bottom: 5px;
-}
-.top-scroll-button:focus {
-	bottom: 110vh;
 }
 .top-scroll-button img {
 	position: relative;
