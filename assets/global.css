@@ -106,7 +106,7 @@ footer {
 		margin-bottom: 110px;
 	}
 	.top-scroll-button {
-		bottom: 70px;
+		bottom: 115px;
 	}
 }
 
@@ -243,7 +243,7 @@ footer {
 	border-radius: 50%;
 	position: fixed;
 	right: 20px;
-	bottom: 20px;
+	bottom: 65px;
 	background-color: #000;
 	display: none;
 	-webkit-transition-duration: 0.25s;
