@@ -255,11 +255,14 @@ footer {
 	background-color: #111;
 }
 .top-scroll-button:hover img {
-	top: 5px;
+	bottom: 5px;
+}
+.top-scroll-button:focus {
+	bottom: 110vh;
 }
 .top-scroll-button img {
 	position: relative;
-	top: 2px;
+	top: 2.5px;
 	padding: 5px;
 	width: 35px;
 	height: auto;
