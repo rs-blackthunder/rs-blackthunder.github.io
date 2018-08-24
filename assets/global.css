@@ -105,6 +105,9 @@ footer {
 	footer {
 		margin-bottom: 110px;
 	}
+	.top-scroll-button {
+		bottom: 80px;
+	}
 }
 
 @keyframes moveNamePlate {
