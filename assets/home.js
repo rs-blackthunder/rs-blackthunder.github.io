@@ -38,10 +38,9 @@ function typeTitle()
 			}, 500);
 
 			// Finishing
-			$('.skip-button').fadeOut(500);
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
 			var intMainParagraphs = $("#mainContent > span").length
-			var intYouTubeAnimationDelay = intMainParagraphs * 800
+			var intYouTubeAnimationDelay = intMainParagraphs * 800 + 800
 			setTimeout(function(){
 				$(".YTContainer").animate({
 					opacity: 1,
@@ -60,23 +59,3 @@ function typeTitle()
 setTimeout(typeTitle, 2000);
 
 // TYPEWRITER END
-
-// SKIP BUTTON START
-
-var buttonClick = false
-var animateAsNormal = false
-
-setTimeout(function() {
-	$(".skip-button").fadeIn();
-}, 2000);
-
-function skip() {
-	if (buttonClick == false) {
-		buttonClick = true;
-		intTextPosition = intArrayLength - 1;
-		intIndex = arrText.length - 1;
-		intYouTubeAnimationDelay += 800;
-	}
-};
-
-// SKIP BUTTON END
