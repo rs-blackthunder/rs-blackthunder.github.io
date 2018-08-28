@@ -45,7 +45,7 @@ function typeTitle()
 				$(".YTContainer").animate({
 					opacity: 1,
 					top: "-=10vh"
-				}, 500);
+				}, 1000);
 			}, intYouTubeAnimationDelay);
 			$("#mainContent").animate({
 				marginBottom: "30px"
