@@ -10,11 +10,10 @@
 }
 #mainContent {
 	text-align: left;
-	margin-bottom: 200px;
+	margin-bottom: 0;
 }
 #mainContent span {
-	position: relative;
-	top: 30vh;
+	transform: translateY(30vh);
 	animation-name: moveContent;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
@@ -81,7 +80,7 @@
 
 @keyframes moveContent {
 	to {
-		top: 0px;
+		transform: translateY(0);
 		opacity: 1;
 	}
 }

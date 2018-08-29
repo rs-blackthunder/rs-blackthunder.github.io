@@ -39,17 +39,15 @@ function typeTitle()
 
 			// Finishing
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
+			document.getElementByID("mainContent").style.display = "block";
 			var intMainParagraphs = $("#mainContent > span").length
 			var intYouTubeAnimationDelay = intMainParagraphs * 800 + 800
 			setTimeout(function(){
 				$(".YTContainer").animate({
 					opacity: 1,
-					top: "-=10vh"
+					transform: "translateY(0)"
 				}, 1000);
 			}, intYouTubeAnimationDelay);
-			$("#mainContent").animate({
-				marginBottom: "30px"
-			}, 500);
 		}
 	} else {
 		setTimeout("typeTitle()", intSpeed);
