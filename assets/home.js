@@ -39,7 +39,7 @@ function typeTitle()
 
 			// Finishing
 			document.getElementsByClassName("YTContainer")[0].style.display = "block";
-			document.getElementByID("mainContent").style.display = "block";
+			document.querySelector("#mainContent").style.display = "block";
 			var intMainParagraphs = $("#mainContent > span").length
 			var intYouTubeAnimationDelay = intMainParagraphs * 800 + 800
 			setTimeout(function(){
