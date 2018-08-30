@@ -45,7 +45,7 @@ function typeTitle()
 			setTimeout(function(){
 				$(".YTContainer").animate({
 					opacity: 1,
-					transform: "translateY(0)"
+					top: "0"
 				}, 1000);
 			}, intYouTubeAnimationDelay);
 		}

@@ -1,7 +1,7 @@
 #title {
 	text-align: center;
 	position: relative;
-	transform: translateY(15vh);
+	top: 15vh;
 	font-size: 5vh;
 	animation-name: moveContent;
 	animation-duration: 1.5s;
@@ -13,7 +13,8 @@
 	margin-bottom: 0;
 }
 #mainContent span {
-	transform: translateY(30vh);
+	position: relative;
+	top: 30vh;
 	animation-name: moveContent;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
@@ -80,7 +81,7 @@
 
 @keyframes moveContent {
 	to {
-		transform: translateY(0);
+		top: 0;
 		opacity: 1;
 	}
 }
