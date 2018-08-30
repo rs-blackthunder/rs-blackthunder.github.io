@@ -1,2 +1,2 @@
-# https://blackthunderfll.ga/
-Website for Reading School's FLL team
+# https://blackthunder.ga/
+Website for Reading School's robotics club
