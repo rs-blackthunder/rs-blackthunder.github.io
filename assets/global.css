@@ -26,7 +26,7 @@ main {
 	z-index: 100;
 }
 .nav-fade {
-	height: 4vh;
+	height: 1.5vh;
 	background: linear-gradient(#000, rgba(0,0,0,0));
 }
 .nameplate {
