@@ -14,13 +14,13 @@
 		<script>
 			// CHECK COOKIE POLICY HAS BEEN ACCEPTED //
 
-			if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") == "true") {
+			if(Cookies.get("blackThunderCookiePolicy__Accepted") == "true") {
 				window.location = "/"
 			}
 
 			function acceptCookies() {
-				if(Cookies.get("blackThunderFLLCookiePolicy__Accepted") != "true") {
-					Cookies.set("blackThunderFLLCookiePolicy__Accepted", "true", {expires: 30});
+				if(Cookies.get("blackThunderCookiePolicy__Accepted") != "true") {
+					Cookies.set("blackThunderCookiePolicy__Accepted", "true", {expires: 30});
 					window.location = "/"
 				}
 			}
