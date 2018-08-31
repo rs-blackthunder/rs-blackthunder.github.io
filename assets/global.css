@@ -168,7 +168,7 @@ footer {
 	position: fixed;
 	right: 20px;
 	bottom: 65px;
-	background-color: #000;
+	background: #000;
 	display: none;
 	-webkit-transition-duration: 0.25s;
 	-moz-transition-duration: 0.25s;
@@ -176,7 +176,7 @@ footer {
 	transition-duration: 0.25s;
 }
 .top-scroll-button:hover, .top-scroll-button:focus {
-	background-color: #111;
+	background: #111;
 }
 .top-scroll-button:hover img {
 	top: 0px;
