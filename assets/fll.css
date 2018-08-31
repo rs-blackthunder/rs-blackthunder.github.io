@@ -1,0 +1,90 @@
+hr {
+	margin-left: 0;
+}
+#title {
+	text-align: center;
+	position: relative;
+	top: 15vh;
+	font-size: 5vh;
+	animation-name: moveContent;
+	animation-duration: 1.5s;
+	animation-delay: 3.05s;
+	animation-fill-mode: forwards;
+}
+#mainContent {
+	text-align: left;
+	margin-bottom: 30px;
+}
+#mainContent span {
+	position: relative;
+	top: 30vh;
+	animation-name: moveContent;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#mainContent span:nth-of-type(1) {
+	animation-delay: 3.55s;
+}
+#mainContent span:nth-of-type(2) {
+	animation-delay: 4.35s;
+}
+#mainContent span:nth-of-type(3) {
+	animation-delay: 5.15s;
+}
+#mainContent span:nth-of-type(4) {
+	animation-delay: 5.95s;
+}
+#mainContent span:nth-of-type(5) {
+	animation-delay: 6.75s;
+}
+#mainContent span:nth-of-type(6) {
+	animation-delay: 7.55s;
+}
+#mainContent span:nth-of-type(7) {
+	animation-delay: 8.35s;
+}
+#mainContent span:nth-of-type(8) {
+	animation-delay: 9.15s;
+}
+#mainContent span:nth-of-type(9) {
+	animation-delay: 9.95s;
+}
+#mainContent span:nth-of-type(10) {
+	animation-delay: 10.75s;
+}
+#YTChannel {
+	width: calc(90vw - 130px);
+	height: calc((90vw - 130px) / 16 * 9);
+}
+#twitterContainer {
+	margin-top: 5vh;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.YTContainer {
+	position: relative;
+	top: 10vh;
+	opacity: 0;
+	display: none;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	#YTChannel {
+		width: 90vw;
+		height: calc(90vw / 16 * 9);
+	}
+	#twitterContainer {
+		margin-top: 5vh;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
+@keyframes moveContent {
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}

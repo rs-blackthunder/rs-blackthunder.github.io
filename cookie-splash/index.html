@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/assets/montserrat.css" rel="stylesheet">
+		<title>Black Thunder</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Black Thunder: a robotics club from Reading School, UK that competes in the FLL & Pi Wars">
+		<meta name='author' content='Black Thunder'/>
+		<link rel="shortcut icon" href="/graphics/logo-round.ico" />
+		<script src="/assets/cookies.js"></script>
+		<link rel="stylesheet" type="text/css" href="/assets/cookie-splash.css">
+		<link rel="stylesheet" type="text/css" href="/assets/global.css">
+		<script>
+			// CHECK COOKIE POLICY HAS BEEN ACCEPTED //
+
+			if(Cookies.get("blackThunderCookiePolicy__Accepted") == "true") {
+				window.location = "/"
+			}
+
+			function acceptCookies() {
+				if(Cookies.get("blackThunderCookiePolicy__Accepted") != "true") {
+					Cookies.set("blackThunderCookiePolicy__Accepted", "true", {expires: 30});
+					window.location = "/"
+				}
+			}
+
+			// END OF COOKIE POLICY CHECK //
+		</script>
+	</head>
+	<body class="body">
+		<div id='nav'>
+			<a href="/" style="text-decoration: none;">
+				<nav>
+					<img class='nameplate' src='/graphics/nameplate-thick.png'>
+					<img class='logo1' src='/graphics/logoleft.png'>
+					<img class='logo2' src='/graphics/logo.png'>
+				</nav>
+				<div class='nav-fade'>
+                    <a class="one" href="/fll">FLL</a><!--
+                  --><a class="two" href="/pi-wars">Pi Wars</a><!--
+                  --><a class="three" href="https://blog.blackthunder.ga">Blog</a><!--
+                  --><a class="four" href="/privacy-policy">Privacy Policy</a>
+                  <hr/>
+                </div>
+			</a>
+		</div>
+		<main>
+			<div class="script-only">
+				<h1>
+					We Use Cookies on Our Site
+				</h1>
+				<p>
+					By continuing to use this site, you agree to the use of cookies from AddThis, Google Analytics, and Black Thunder FLL.
+				</p>
+				<button class="button button-enabled" onclick="acceptCookies()">Agree</button>
+				<a class="button button-enabled" href="/privacy-policy">Privacy Policy</a>
+			</div>
+			<noscript>
+				<style>
+					.script-only {
+						display: none;
+					}
+				</style>
+				<h1>Error</h1>
+				<p>
+					We use cookies on this site, and other features that involve JavaScript. If you have disabled JavaScript, please re-enable it.
+					If you are unsure what Javascript is, or have not disabled it, you are probably viewing this page on an older computer, in which case please upgrade to a newer device.
+				</p>
+				<a class="button" href="/privacy-policy">Our Privacy Policy</a>
+			</noscript>
+			<footer>
+				&copy; Copyright Black Thunder FLL 2018
+			</footer>
+		</main>
+	</body>
+</html>
