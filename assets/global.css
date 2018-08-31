@@ -19,7 +19,7 @@ main {
 }
 #nav {
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	margin: 0px;
 	top: 0px;
@@ -92,6 +92,19 @@ footer {
 .button-enabled:focus {
 	top: 3px;
 	left: 1px;
+}
+
+.a {
+	background-image: linear-gradient(120deg, #0543ff 0%, #0543ff 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 0.1em;
+	background-position: 0 92%;
+	transition: background-size 0.25s ease-in;
+	color: #ffc105;
+	text-decoration: none;
+}
+.a:hover {
+  background-size: 100% 88%;
 }
 
 @media screen and (max-width: 800px) {
