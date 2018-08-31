@@ -17,7 +17,9 @@ hr {
 }
 #mainContent span {
 	position: relative;
-	transform: translateY(100px);
+	-webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
     /* was 30vh ^ */
 	animation-name: moveContent;
 	animation-duration: 1s;
@@ -87,6 +89,14 @@ hr {
 @keyframes moveContent {
 	to {
 		top: 0;
+		opacity: 1;
+	}
+}
+@keyframes moveContentTransform {
+	to {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+        transform: translateY(0);
 		opacity: 1;
 	}
 }
