@@ -54,11 +54,12 @@ hr {
 	animation-delay: 10.75s;
 }
 #YTChannel {
+	margin-bottom: 40px;
 	width: calc(90vw - 130px);
 	height: calc((90vw - 130px) / 16 * 9);
 }
 #twitterContainer {
-	margin-top: 5vh;
+	margin-top: 40px;
 	margin-left: 15%;
 	margin-right: 15%;
 }
