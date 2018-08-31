@@ -4,6 +4,7 @@
 
 var arrText = new Array(
 "Welcome",
+"",
 "FLL"
 );
 
