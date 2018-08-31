@@ -90,11 +90,6 @@ hr {
 h1 {
 	text-align: center;
 }
-/* a {
-	color: #ffc105;
-	text-decoration: underline;
-	text-decoration-color: white;
-} */
 main a {
 	background-image: linear-gradient(120deg, #585858 0%, #fff 100%);
 	background-repeat: no-repeat;
@@ -105,6 +100,7 @@ main a {
 	text-decoration: none;
 }
 main a:hover {
+	background-image: linear-gradient(120deg, #ffc105 0%, #212121 100%);
 	background-size: 100% 100%;
 	color: #fff;
 }
