@@ -3,7 +3,7 @@
 // set up text to print, each item in array is new line
 
 var arrText = new Array(
-"Welcome"
+"Welcome: FLL"
 );
 
 var intSpeed = 100; // time delay of print out
