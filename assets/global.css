@@ -27,7 +27,7 @@ main {
 }
 .nav-fade {
 	width: 100%;
-	background: linear-gradient(#000, #000, rgba(0,0,0,0));
+	background: linear-gradient(#000, rgba(0,0,0,0.9), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 .one, .two, .three, .four {
 	text-align: center;
