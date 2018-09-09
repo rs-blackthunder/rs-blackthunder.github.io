@@ -109,7 +109,6 @@ footer {
 	margin-top: 50px;
 }
 .button {
-	font-family: arial;
 	font-size: 15px;
 	color: #ffc105;
 	background: black;
@@ -128,8 +127,8 @@ footer {
 	color: black;
 }
 .button-enabled:focus {
-	top: 3px;
-	left: 1px;
+	top: 1.5px;
+	left: 0.3px;
 }
 
 @media screen and (max-width: 800px) {
