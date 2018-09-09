@@ -1,7 +1,7 @@
 $(document).ready ( function(){
 	if(Cookies.get("blackThunderCookiePolicy__Accepted") == "true") {
 		$(".button").addClass("button-enabled");
-		$(".button").innerHTML("Decline cookies");
+		$(".button").html("Decline cookies");
 		$('.button').css({'cursor': 'pointer'});
 	}
 });
