@@ -4,6 +4,7 @@ body {
 	color: #fff;
 	background-color: #212121;
 	text-align: left;
+	scroll-behavior: smooth;
 }
 nav {
 	background-color: #000;
