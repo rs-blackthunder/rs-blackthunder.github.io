@@ -92,16 +92,13 @@ h1 {
 	text-align: center;
 }
 main a {
-	background-image: linear-gradient(130deg, #3d3d3d 0%, #797979 100%);
-	background-repeat: no-repeat;
-	background-size: 100% 0.1em;
-	background-position: 0 92%;
-	transition: background-size 0.25s ease-in;
 	color: #ffc105;
-	text-decoration: none;
+	text-decoration: underline;
+	text-decoration-color: white;
 }
-main a:hover {
-	background-size: 100% 100%;
+main a:visited {
+	color: #ffc105;
+	text-decoration-color: white;
 }
 footer {
 	text-align: left;
